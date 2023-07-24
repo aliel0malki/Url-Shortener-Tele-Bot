@@ -1,0 +1,22 @@
+// const { Telegraf } = require("telegraf");
+// const { message, copyMessage } = require("telegraf/filters");
+//
+// const bot = new Telegraf("6437797832:AAFF_4aK2imu5MJmakL92S1_zSVBmBVi4MY");
+//
+// bot.start((ctx) =>
+//   ctx.reply(
+//     "Welcome To Simple Service Bot\n Send Ur Url or Link & Waiting for shorted."
+//   )
+// );
+//
+// bot.textLink((ctx) => ctx.reply("Good"));
+//
+// bot.command("Go", (ctx) => ctx.reply("تباً لك ولأمثالك"));
+// bot.command("Thx", Telegraf.reply("روح نام"));
+//
+// bot.launch();
+//
+// Enable graceful stop
+// process.once("SIGINT", () => bot.stop("SIGINT"));
+// process.once("SIGTERM", () => bot.stop("SIGTERM"));
+//

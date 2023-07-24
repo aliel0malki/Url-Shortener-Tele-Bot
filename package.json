@@ -1,0 +1,23 @@
+{
+  "name": "learn-bot-telegram",
+  "version": "1.0.0",
+  "description": "just for learning.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "bot": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["learn"],
+  "author": "aliel0malki",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
